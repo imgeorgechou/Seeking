@@ -1,13 +1,39 @@
-# React + Vite
+# 尋找回聲 Seeking the Echoes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![尋找回聲](/public/logo.png)
 
-Currently, two official plugins are available:
+## 專案簡介
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+「尋找回聲」是一款結合擴增實境（AR）與 AI 藝術生成技術的互動歷史教育遊戲。以嘉義民雄為起點，構築一座跨越時空的文化橋廊，讓玩家在虛實交錯的世界中，親身探尋往事，尋找地方記憶。
 
-## Expanding the ESLint configuration
+本網頁是為這個專題作宣傳，期望推廣這個專案，並提供更多資訊給玩家。
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Seeking
+本專案為中正大學資管系畢業專題，並同步參與中正大學傳播系畢業製作展。
+
+## 技術
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+
+## 功能特色
+
+- 響應式設計，支援各種裝置
+- 流暢的頁面過渡動畫
+- 互動式元素
+- 加載動畫
+- 路由導航
+
+## 開發團隊
+
+- 周致祥
+- 陳鴻溢
+- 黃榆荏
+- 李亞峰
+
+## 合作單位
+
+- 打貓街訪文化協會
+- 重構大學路計畫

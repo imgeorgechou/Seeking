@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+h3 {
+  font-weight: bold;
+}
+
+@layer components {
+  .transparent-card {
+    @apply w-100 h-100 bg-gradient-to-br from-transparent to-[#5f5f5f]/60 rounded-3xl p-8 backdrop-blur-sm border border-white/20;
+  }
+}
