@@ -8,7 +8,7 @@ import { Header } from "./components/Header";
 import { Feature } from "./components/Feature";
 import { Photo } from "./components/Photo";
 import { Promote } from "./components/Promote";
-import { Footer } from "./components/footer";
+import { Footer } from "./components/Foot";
 import { motion } from "framer-motion";
 import { Aboutus } from "./components/Aboutus";
 
