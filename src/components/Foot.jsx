@@ -6,7 +6,7 @@ export const Footer = () => {
         <p className="text-center text-gray-400 text-m">協辦單位</p>
         <img src="footer.png" alt="" className="w-[80%] sm:w-[30%]" />
       </div>
-      <footer className="bg-gradient-to-r from-[#fff352] via-[#d9ff9f] to-[#5ce1e6] rounded-lg shadow-sm">
+      <footer className="bg-white rounded-lg shadow-sm">
         <div className="w-full p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2025 Seeking the Echoes™ . All Rights Reserved.
