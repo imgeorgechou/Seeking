@@ -3,7 +3,7 @@ import React from "react";
 export const Festival = () => {
   return (
     <div className="sm:flex sm:items-center sm:px-30">
-      <div className="flex flex-col sm:flex-row justify-center items-center mt-20 ">
+      <div className="flex flex-col lg:flex-row justify-center items-center mt-20 ">
         <div className="flex items-center justify-center">
           <div className="transparent-card flex flex-col justify-between w-[90%] ">
             <h3 className="text-4xl ">民雄大士爺祭</h3>

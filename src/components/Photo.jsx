@@ -2,7 +2,7 @@ import React from "react";
 
 export const Photo = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 md:flex-row md:gap-10 lg:gap-20">
+    <div className="flex flex-col justify-center items-center mt-10 lg:flex-row md:gap-10 lg:gap-20">
       <div className="flex items-center w-70 sm:w-120">
         <img src="/photo.png" alt="實際遊玩照片" className="rounded-lg" />
       </div>

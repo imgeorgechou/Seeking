@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 
 export const Aboutus = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-20">
+    <div className="flex flex-col justify-center items-center pt-20">
       <motion.div
         className="flex flex-col items-center"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h3 className="text-4xl text-center px-5 sm:text-6xl">關於我們</h3>
         <motion.img
           src="/about.jpg"
           alt="團體照"
-          className="mt-10 w-70 rounded-3xl sm:w-100"
+          className="mb-10 w-70 rounded-3xl sm:w-100"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         />
+        <h3 className="text-4xl text-center px-5 sm:text-5xl">關於我們</h3>
       </motion.div>
 
       <motion.div

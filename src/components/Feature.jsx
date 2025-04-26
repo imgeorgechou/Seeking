@@ -8,13 +8,13 @@ import {
 
 export const Feature = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center items-center mt-20 gap-10">
-      <h3 className="text-5xl my-5 mb-10 sm:text-7xl ">
+    <div className="flex flex-col lg:flex-row justify-center items-center mt-20 gap-10">
+      <h3 className="text-5xl my-5 mb-10 lg:text-7xl ">
         踏尋在地 <br />
         認識在地
       </h3>
       <div className="flex flex-col gap-8 items-center justify-center ">
-        <div className="transparent-card flex flex-col justify-start w-[90%] h-50 sm:-mr-50">
+        <div className="transparent-card flex flex-col justify-start w-[90%] h-50 lg:-mr-50">
           <FontAwesomeIcon
             icon={faCircleUser}
             size="2x"
@@ -32,7 +32,7 @@ export const Feature = () => {
             我們使用了AR（擴增實境）技術，讓玩家掃描真實世界的物件，找到線索並解開謎題
           </p>
         </div>
-        <div className="transparent-card flex flex-col justify-start w-[90%] h-50 sm:-mr-30">
+        <div className="transparent-card flex flex-col justify-start w-[90%] h-50 lg:-mr-30">
           <FontAwesomeIcon
             icon={faPuzzlePiece}
             size="2x"

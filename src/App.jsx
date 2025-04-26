@@ -10,11 +10,12 @@ import { Photo } from "./components/Photo";
 import { Promote } from "./components/Promote";
 import { Footer } from "./components/Foot";
 import { motion } from "framer-motion";
-import { Aboutus } from "./components/Aboutus";
+import { Aboutus } from "./pages/Aboutus";
+import { StoryAns } from "./pages/StoryAns";
 
 const HomePage = () => {
   return (
-    <>
+    <div className="pt-20">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +24,6 @@ const HomePage = () => {
       >
         <Herosction />
       </motion.div>
-
       <motion.h3
         className="text-center text-amber-50 text-l mt-25 sm:text-3xl"
         initial={{ opacity: 0, x: -50 }}
@@ -33,7 +33,6 @@ const HomePage = () => {
       >
         「在熙攘的人群中，我看見了一個蹲在地上哭泣的小男孩。」
       </motion.h3>
-
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +41,6 @@ const HomePage = () => {
       >
         <Character />
       </motion.div>
-
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -51,7 +49,6 @@ const HomePage = () => {
       >
         <Festival />
       </motion.div>
-
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -69,7 +66,6 @@ const HomePage = () => {
       >
         <Photo />
       </motion.div>
-
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -78,7 +74,7 @@ const HomePage = () => {
       >
         <Promote />
       </motion.div>
-    </>
+    </div>
   );
 };
 
@@ -89,25 +85,28 @@ export const App = () => {
     // 模擬資料載入
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 0);
   }, []);
 
   return (
     <Router>
-      <div className="min-h-screen w-full bg-black bg-[url('/hero-bg.png')] bg-cover bg-top bg-no-repeat">
+      <div className="min-h-screen w-full bg-black ">
         {loading ? (
           <div className="h-screen w-full flex justify-center items-center">
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white"></div>
           </div>
         ) : (
-          <div className="w-full max-w-full px-0 mx-0">
-            <Header />
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/aboutus" element={<Aboutus />} />
-            </Routes>
-            <Footer />
-          </div>
+          <>
+            <div className="w-full max-w-full px-0 mx-0">
+              <Header />
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/aboutus" element={<Aboutus />} />
+                <Route path="/storyans" element={<StoryAns />} />
+              </Routes>
+              <Footer />
+            </div>
+          </>
         )}
       </div>
     </Router>

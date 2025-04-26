@@ -7,7 +7,7 @@ export const Character = () => {
         <img src="/character.png" alt="小男孩" />
       </div>
       <div className="mt-10 px-5 md:mt-0 md:px-8 lg:px-10">
-        <h3 className="text-white text-5xl px-2 ">迷路的小男孩</h3>
+        <h3 className="text-white text-4xl md:text-5xl px-2 ">迷路的小男孩</h3>
         <h3 className="text-white text-2xl mt-3 px-2  ">你會去幫助他嗎？</h3>
         <p className="text-amber-50 text-1xl mt-5 px-2 ">
           嗚......我找不到回家的路......找不到......
