@@ -6,11 +6,6 @@ export const Herosction = () => {
   return (
     <div className="flex flex-col justify-center items-center lg:flex-row sm:scale-110 sm:mt-10">
       <div className="flex flex-col items-center lg:items-start">
-        <img
-          src="/logo.png"
-          alt="尋找回聲"
-          className="mt-10 w-80 lg:w-96 lg:mr-20 lg:-ml-5"
-        />
         <h3 className="text-white text-2xl lg:text-3xl">
           結合AI視覺藝術與AR<br></br>互動歷史實境解謎教育遊戲
         </h3>

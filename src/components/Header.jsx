@@ -17,7 +17,7 @@ export const Header = () => {
           onClick={() => setIsMenuOpen(true)}
         >
           {/* 漢堡選單圖示 */}
-          <div className="space-y-1">
+          <div className="space-y-1 cursor-pointer">
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />
@@ -34,7 +34,7 @@ export const Header = () => {
         }`}
       >
         <button
-          className="absolute top-3 right-6 text-2xl font-bold text-black transition-transform duration-300 hover:rotate-90"
+          className="absolute top-3 right-6 text-2xl font-bold text-black transition-transform duration-300 hover:rotate-90 cursor-pointer"
           onClick={() => setIsMenuOpen(false)}
         >
           ✕
