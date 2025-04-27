@@ -60,7 +60,7 @@ export const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className="hover:underline transition-all duration-300 hover:scale-110"
           >
-            關卡詳解
+            各關說明
           </Link>
         </div>
       </div>
