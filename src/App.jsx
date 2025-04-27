@@ -90,7 +90,7 @@ export const App = () => {
 
   return (
     <Router>
-      <div className="min-h-screen w-full bg-black ">
+      <div className="min-h-screen w-full bg-primary ">
         {loading ? (
           <div className="h-screen w-full flex justify-center items-center">
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white"></div>
