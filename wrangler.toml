@@ -1,0 +1,7 @@
+name = "seeking-the-echoes"
+main = "index.js"
+workers_dev = true
+compatibility_date = "2025-04-28"
+
+[site]
+bucket = "./dist"

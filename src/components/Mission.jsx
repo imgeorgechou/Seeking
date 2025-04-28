@@ -35,7 +35,7 @@ export const Mission = ({ data }) => {
       </div>
       {explainOpen && (
         <div className="fixed inset-0 bg-black/70 bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-md w-full mx-4">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                 破關解說
@@ -47,14 +47,14 @@ export const Mission = ({ data }) => {
                 ✕
               </button>
             </div>
-            <p className="text-gray-600 dark:text-gray-300">{data.explain}</p>
+            <p className="text-gray-600 ">{data.explain}</p>
           </div>
         </div>
       )}
 
       {backgroundOpen && (
         <div className="fixed inset-0 bg-black/70 bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-md w-full mx-4">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-xl font-bold text-gray-900 ">任務背景</h3>
               <button
