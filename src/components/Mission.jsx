@@ -22,7 +22,7 @@ export const Mission = ({ data }) => {
               onClick={() => setExplainOpen(true)}
               className="inline-flex items-center px-3 py-2 text-[16px] font-medium text-center text-white bg-primary rounded-xl hover:scale-110 focus:ring-4 transition-all duration-300 cursor-pointer"
             >
-              破關解說
+              關卡解說
             </button>
             <button
               onClick={() => setBackgroundOpen(true)}
@@ -38,11 +38,11 @@ export const Mission = ({ data }) => {
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                破關解說
+                關卡解說
               </h3>
               <button
                 onClick={() => setExplainOpen(false)}
-                className="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 hover:text-gray-500 cursor-pointer"
               >
                 ✕
               </button>
@@ -59,7 +59,7 @@ export const Mission = ({ data }) => {
               <h3 className="text-xl font-bold text-gray-900 ">任務背景</h3>
               <button
                 onClick={() => setBackgroundOpen(false)}
-                className="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 hover:text-gray-500 cursor-pointer"
               >
                 ✕
               </button>

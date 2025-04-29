@@ -12,12 +12,35 @@ export const Header = () => {
         <Link to="/" className="flex items-center">
           <img src="/logo.png" className="h-6 sm:h-9" alt="Logo" />
         </Link>
+        <div className="lg:flex lg:text-black lg:gap-4 lg:font-light">
+          <Link
+            to="/"
+            onClick={() => setIsMenuOpen(false)}
+            className="hover:underline transition-all duration-300 hover:scale-110"
+          >
+            主頁
+          </Link>
+          <Link
+            to="/aboutus"
+            onClick={() => setIsMenuOpen(false)}
+            className="hover:underline transition-all duration-300 hover:scale-110"
+          >
+            關於我們
+          </Link>
+          <Link
+            to="/storyans"
+            onClick={() => setIsMenuOpen(false)}
+            className="hover:underline transition-all duration-300 hover:scale-110"
+          >
+            各關說明
+          </Link>
+        </div>
         <button
-          className="w-8 h-8 rounded-full flex items-center justify-center"
+          className="w-8 h-8 rounded-full flex items-center justify-center lg:hidden"
           onClick={() => setIsMenuOpen(true)}
         >
           {/* 漢堡選單圖示 */}
-          <div className="space-y-1 cursor-pointer">
+          <div className="space-y-1 cursor-pointer ">
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />
             <div className="w-5 h-0.5 bg-black transition-all duration-300" />

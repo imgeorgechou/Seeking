@@ -1,7 +1,7 @@
-name = "seeking-the-echoes"
+name = "seeking-the-echoes"   # ← 改成你想要的名字，不要用falling-shape-xxxx那種
 main = "index.js"
 workers_dev = true
 compatibility_date = "2025-04-28"
 
-[site]
-bucket = "./dist"
+[assets]
+directory = "dist"
